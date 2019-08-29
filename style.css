@@ -1,0 +1,25 @@
+.body-main-background {
+  background-color: black;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 20px;
+
+}
+
+.main-box1 {
+  grid-row: span 5;
+  background-color: #FF6250;
+}
+
+.main-box2 {
+  grid-row: span 1;
+  background-color: #D9EB37;
+}
+
+.main-box3 {
+  grid-row: span 4;
+  background-color: #00C7FC;
+
+}
